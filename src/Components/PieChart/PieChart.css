@@ -1,0 +1,40 @@
+.piechart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 15px #d2dbb1, -5px -5px 15px #ffffff;
+    border-radius: 15px;
+    max-width: 60%;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;
+}
+
+.piechart:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+    .piechart {
+      max-width: 90%; 
+      padding: 15px; 
+      margin-bottom: 40px; 
+    }
+  }
+ 
+  @media (max-width: 768px) {
+    .piechart {
+      max-width: 100%; 
+      padding: 10px;
+      margin-bottom: 30px; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .piechart {
+      padding: 5px; 
+      margin-bottom: 20px; 
+    }
+  }
+

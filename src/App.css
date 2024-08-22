@@ -1,5 +1,25 @@
 .App {
   text-align: center;
+   /* background-image: url('https://img.freepik.com/free-vector/blue-coronavirus-patterned-background_53876-116890.jpg?t=st=1724267572~exp=1724271172~hmac=e165d8c4bbd341d1d4b12679ccd7a9dfae0f5f6280324ee7efb72499693fc0e8&w=740');       */
+   background-size: cover;
+   margin-bottom: 0;
+}
+
+.heading{
+  /* background-image: url('https://media.istockphoto.com/id/1217008895/vector/background-particle-virus.jpg?s=1024x1024&w=is&k=20&c=CqMHdRh-fR9JSFBvxmuYYrgqdLzPvg3ZMEuR8yJrFZU=');    */
+  padding: 30px 30px;
+  background-size: cover;
+  font-size: 50px;
+  /* background-color: rgb(188, 207, 207); */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center cards horizontally */
+  gap: 20px; /* Space between cards */
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .App-logo {

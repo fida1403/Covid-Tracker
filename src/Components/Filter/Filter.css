@@ -1,0 +1,23 @@
+span{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+.filter{
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    span {
+      font-size: 18px;
+      margin-top: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    span {
+      font-size: 16px;
+      margin-top: 3%;
+    }
+}
